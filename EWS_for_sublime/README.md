@@ -2,4 +2,4 @@
 
 Work in progress...
 
-![LOGO!](https://raw.githubusercontent.com/Rasarts/EWS_for_sublime/master/preview.png)
+![LOGO!](https://raw.githubusercontent.com/Rasarts/EWS_Theme/master/EWS_for_sublime/preview.png)
