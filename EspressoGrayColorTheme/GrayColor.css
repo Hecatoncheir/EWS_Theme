@@ -1,0 +1,155 @@
+/*
+	@theme Espresso Gray Color
+	@override-placeholders html, xml, sourcecode.js
+*/
+
+:document-base {
+	color: #7690ae;
+	background-color: #FFFFFF;
+	insertion-point-color: #000000;
+	selection-background-color: default;
+	current-line-background-color: rgba(222, 228, 234, 0.4);
+}
+
+
+class{
+  color: #8fb929;
+}
+
+apache, css, js, php, python, ruby, source, sourcecode, tag, constant {
+	spell-check: disabled;
+	color: #64829b;
+}
+
+tag, tag > string > punctuation {
+	color: #64829b;
+}
+
+tag>name {
+	color: #ac1587;
+	background-color: rgb(255, 255, 255);
+	border-radius: 6px;;
+}
+
+attribute-name, punctuation.definition.tag {
+	color: #4F9FCF;
+}
+
+tag > string.quoted, tag > attribute-with-value > string.quoted {
+	color: #f15479;
+	background-color: #fff; /* FIXME */
+}
+
+tag > string > punctuation {
+	font-weight: normal;
+	color: #7690ae;
+}
+
+css.embedded attribute-name, css.embedded punctuation.definition.tag {
+	color: #DF9F4F;
+}
+
+comment, comment > punctuation, tag.doctype, tag.doctype > *, tag.doctype > string.quoted {
+	color: #b2b2b2;
+	font-weight: normal;
+}
+
+string.quoted {
+	color: #bc670f;
+	background-color: rgba(251,233,173,0.1);
+}
+
+string.quoted > punctuation {
+	color: #e69a4c;
+}
+
+string.quoted > escape {
+	font-weight: bold;
+	background-color: rgba(251,233,173,0.8);
+}
+
+variable > punctuation {
+	color: #ae94e7;
+}
+
+operator {
+	color: #626fc9;
+}
+
+open-bracket, close-bracket {
+	color: #f14b4b;
+}
+
+support.function, function-call {
+	color: #6b4aac;
+	font-weight: boldd;
+}
+
+keyword.control, storage.type {
+	color: #803fb4;
+}
+
+function > name {
+	color: #ff1b66;
+}
+
+js.embedded {
+	color: #7d6f6f;
+}
+
+constant.numeric, constant.language {
+	color: #49a700;
+	background-color: #ffffff;
+}
+
+invalid {
+	background-color: #f93232;
+	color: #f9f2ce;
+}
+
+/* @group CSS */
+
+/*
+	@theme CSS Placeholder
+	@placeholder css
+*/
+
+css {
+	spell-check: disabled;
+	background-color: #ffffff;
+}
+
+css invalid {
+	background: #f5f5f5;
+}
+
+css.selector, css.selector entity punctuation {
+	color: #7690ae;
+}
+
+css property-name {
+	color: #d4430d;
+	background-color: #ffffff;
+}
+
+css property-name.variable {
+	font-weight: bold;
+}
+
+css property-value {
+	color: #a6cf11;
+}
+
+css.at-rule string, css.at-rule string punctuation, media.css > block > punctuation, property-list.css > property-value > punctuation {
+	color: #979797;
+}
+
+keyword.important.css {
+	font-weight: bold;
+	color: #3f9fbe;
+}
+
+
+
+
+/* @end */
